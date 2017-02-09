@@ -51,6 +51,7 @@
 
 
 <mapping class="edu.mum.dto.UserDetails"/>
+<mapping class="edu.mum.dto.DoctorDetails"/>
 
 </session-factory>
 
