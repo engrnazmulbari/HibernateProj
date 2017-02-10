@@ -13,6 +13,7 @@ public class MainApp {
 
 	public static void main(String[] args) {
 		UserDetails user = new UserDetails();
+<<<<<<< HEAD
 		UserDetails user2 = new UserDetails();
 		
 		Address homeAddress = new Address();
@@ -38,6 +39,10 @@ public class MainApp {
 		user2.setJoinedDate(new Date());
 		user2.setDescription("old employee");
 		user2.setCitizenship(true);
+=======
+		user.setUserId(2);
+		user.setUserName("second userr");
+>>>>>>> refs/remotes/origin/master
 		
 		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
 		Session session = sessionFactory.openSession();
